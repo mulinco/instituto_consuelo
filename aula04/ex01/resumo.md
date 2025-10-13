@@ -1,11 +1,11 @@
-## Projeto: Validador de Senha em Python com Testes
+## Projeto: Conversor de Temperaturas com Testes em Python
 
-Este projeto consistiu no desenvolvimento de uma função em Python (`validador_senha.py`) para validar a força de senhas, seguindo um conjunto de regras: mínimo de 8 caracteres, e a inclusão de letras maiúsculas, minúsculas, números e caracteres especiais.
+Este projeto consistiu no desenvolvimento de um módulo em Python (`conversor.py`) para converter temperaturas entre as escalas Celsius, Fahrenheit e Kelvin. Foram implementadas funções para realizar os cálculos de conversão e garantir a robustez dos dados de entrada.
 
-Para garantir a qualidade da função, foi criada uma suíte de testes automatizados (`test_validador_senha.py`) com o framework `pytest`. Os testes cobriram todos os cenários de falha e um cenário de sucesso, confirmando que a função se comporta como o esperado.
+Para garantir a precisão dos cálculos, foi criada uma suíte de 5 testes automatizados (`test_conversor.py`) com o framework `pytest`. Os testes validaram as conversões em diferentes cenários, confirmando que as funções se comportam como o esperado.
 
 ### Resultado da Execução dos Testes
 
-O comando `python -m pytest` foi executado na pasta do projeto, e o resultado abaixo confirma que todos os 5 testes passaram com sucesso.
+O comando `python -m pytest` foi executado na pasta do projeto. O resultado abaixo confirma que todos os 5 testes passaram com sucesso.
 
-![Resultado dos testes do Pytest no terminal](./testevalidador.png)
+![Resultado dos testes do Pytest no terminal](./testeconversor3.png)
